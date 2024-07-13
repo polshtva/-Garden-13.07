@@ -1,0 +1,39 @@
+.hero {}
+
+.container {}
+
+.hero__contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__desc {}
+
+.title {}
+
+.hero__title {}
+
+.text {}
+
+.hero__text {}
+
+.btn-block {}
+
+.btn {}
+
+.btn__action {}
+
+.btn__info {}
+
+.hero__block-img {
+    border: 4px solid rgba(52, 61, 51, 0.4);
+    padding: 9px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+.hero__img {
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}

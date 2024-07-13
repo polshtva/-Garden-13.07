@@ -1,0 +1,39 @@
+:root{
+    --fontSizeText: "Roboto", sans-serif;
+    --fontSizeTitle: "Libre Baskerville",serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-family: var(--fontSizeTitle);
+    font-weight: 400;
+}
+
+.text{
+    font-family: var(--fontSizeText);
+}
